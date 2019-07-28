@@ -60,7 +60,7 @@ p{
      color: #383838;
      height: 200px;
  }
- 
+
  h3{
     padding: 15px;
     font-size: 64px;
@@ -79,7 +79,54 @@ p{
 h4{
     font-size: 64px;
     font-weight:400;
-
 }
+
+.deeds{
+    z-index: 3;
+    position: relative;
+    color: #383838;
+    margin-top: 200px;
+}
+
+h5{
+    font-size:64px;
+}
+
+.first{
+ float: left;
+ padding: 10px;
+}
+
+
+.img3{
+    width:  65%;
+    height: auto; 
+}
+
+
+.second{
+    float: left;
+    padding: 10px;
+}
+
+.img4{
+    width:65%;
+    height: auto;
+    
+}
+.third{
+    float: left;
+    padding: 10px;
+}
+.img5{
+    width:65%;
+    height: auto;
+    
+}
+h6{
+    font-size:20px;
+    font-weight:400;
+}
+
 
 
