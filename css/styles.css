@@ -21,12 +21,13 @@ left: 47%;
 
 h1{
 position: absolute;
-top: 50%;
+top: 47%;
 left: 50%;
 color:white;
 font-size:64px;
 transform: translate(-50%, -50%);
-font-family: open sans condensed;
+font-weight: 400;
+font-style: normal;
 }
 
 h2{
@@ -36,7 +37,8 @@ h2{
     color:white;
     font-size:64px;
     transform: translate(-50%, -50%);
-
+    font-style:normal;
+    font-weight: 400;
     }
 p{
     position:absolute;
@@ -53,14 +55,31 @@ p{
  }
 
  .about{
-     color:RGB(0, 0, 25) ;
      text-align: center;
      line-height:29px;
+     color: #383838;
+     height: 200px;
  }
+ 
  h3{
-    padding: 20px 20px;
-    font-size: 64px
+    padding: 15px;
+    font-size: 64px;
+    font-weight:400;
+    color: #383838;
  }
 
+.inns{
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    line-height:25px;
+    margin-top: -390px
+}
+h4{
+    font-size: 64px;
+    font-weight:400;
+
+}
 
 
