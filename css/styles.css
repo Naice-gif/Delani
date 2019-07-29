@@ -108,6 +108,7 @@ p{
    font-weight:400;
    margin-top:150px;
  }
+
   .all{
     margin-top: -10px;
   }
@@ -141,4 +142,27 @@ p{
    margin-top: 10px;
  }
 
- .words
+
+
+.heder{
+ font-weight: 400;
+ font-size: 64px;
+ color: #383838;
+ margin-left:470px;
+}
+
+
+ .porto{
+   width:23%;
+   height:auto;
+   display: flex;
+   flex-direction: row;
+ }
+
+ .ports{
+  width:23%;
+  height:auto;
+  display: flex;
+  flex-direction: row;
+ }
+ 
