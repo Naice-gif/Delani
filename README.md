@@ -1,40 +1,40 @@
-# Delani
+
 # Delani-Studio-project
 
-# by Naice Uwitonze
+## by Naice Uwitonze
 
-# Description
+## Description
  
  Delani Studio project is an independent project where one is required to use skills required,mainly bootstrap,javascript,html and css..Redo the project that it looks like the original one
 
 
-# Setup/Installation Requirements
+## Setup/Installation Requirements
 
    Github
    Terminal
    Visual Code
 
-# Project setup instructions
+## Project setup instructions
 
   To have access on this project use the following commands:
   git clone https://github.com/Nyirate/Delani-Studio-project
 
-# BDD
+## BDD
 
    When the user input his/her address,the message is popped up
   
 
-# Known Bugs
+## Known Bugs
 
   No Bugs
 
-# Technologies Used
+## Technologies Used
 
   HTML and CSS 
   VSC as text editor
   Github as a cloud
 
-# Support and contact details
+## Support and contact details
 
   Problems,questions,ideas or advice;find me on https://github.com/Nyirate/Delani-Studio-project
 
