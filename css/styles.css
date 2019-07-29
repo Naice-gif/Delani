@@ -91,82 +91,24 @@ p{
     margin-bottom:40px;
  }
 
-.inns{
-    z-index: 3;
-    position: relative;
-    text-align: center;
-    color: #fff;
-    line-height:25px;
-    margin-top: -450px
-}
-
-h4{
-    font-size: 64px;
-    font-weight:400;
-    color: #fff;
-    margin-top:150px;
-}
-
-h5{
-    font-size:64px;
-    font-weight:400;
-    margin-top:150px;
+ .servs {
+  color: white;
+  position:relative;
+  
 }
 
 
-.first {
-  width: 7%;
-  height:auto;
+.inns {
+  top: 50%;
+  text-align: center;
+  line-height:25px;
+  margin-top: -390px;
 }
-
-.deeds{
-    height:50px;
-    line-height:20px;
-  }
-
-h6{
-    font-size:20px;
-    font-weight:250;
-  }
-
-  .img0 {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .cols:hover .img0 {
-    opacity: 0.3;
-  }
-  
-  .cols:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    background-color: #4CAF50;
-    color: black;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
-
-  .words{
-    float: left;
-    margin:150px; 
-    margin-top:20px; 
-
+ h4{
+   font-size:64px;
+   font-weight:400;
+   margin-top:150px;
+ }
+  .all{
+    margin-top: -10px;
   }
