@@ -97,7 +97,6 @@ p{
   
 }
 
-
 .inns {
   top: 50%;
   text-align: center;
@@ -112,3 +111,23 @@ p{
   .all{
     margin-top: -10px;
   }
+
+  h5{
+    text-align: center;
+    font-size: 64px;
+  }
+ 
+  
+  .deeds {
+    display: flex;
+    margin-top: 130px;
+    text-align: center;
+  }
+  
+  .first {
+    padding:120px;
+    flex-direction: row;
+
+  }
+
+ 
