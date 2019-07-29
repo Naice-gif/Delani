@@ -77,17 +77,18 @@ p{
 
  .about{
      text-align: center;
-     line-height:29px;
+     line-height:25px;
      color: #383838;
-     height: 200px;
+     height: 400px;
      
  }
 
  h3{
-    padding: 15px;
+    padding: 5px;
     font-size: 64px;
     font-weight:400;
     color: #383838;
+    margin-bottom:40px;
  }
 
 .inns{
@@ -96,12 +97,14 @@ p{
     text-align: center;
     color: #fff;
     line-height:25px;
-    margin-top: -380px
+    margin-top: -450px
 }
 
 h4{
     font-size: 64px;
     font-weight:400;
+    color: #fff;
+    margin-top:150px;
 }
 
 h5{
