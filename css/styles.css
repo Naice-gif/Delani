@@ -112,16 +112,13 @@ h5{
 
 
 .first {
-    float: left;
-    width: 5%;
-    height:auto;
-    margin:150px; 
-    margin-top:20px; 
+  width: 7%;
+  height:auto;
 }
 
 .deeds{
     height:50px;
-    line-height:0px;
+    line-height:20px;
   }
 
 h6{
@@ -162,4 +159,11 @@ h6{
     color: black;
     font-size: 16px;
     padding: 16px 32px;
+  }
+
+  .words{
+    float: left;
+    margin:150px; 
+    margin-top:20px; 
+
   }
