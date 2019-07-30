@@ -17,7 +17,7 @@
 ## Project setup instructions
 
   To have access on this project use the following commands:
-  git clone https://github.com/Nyirate/Delani-Studio-project
+  git clone https://github.com/Naice-gif/Delani-Studio-project
 
 ## BDD
 
@@ -36,7 +36,7 @@
 
 ## Support and contact details
 
-  Problems,questions,ideas or advice;find me on https://github.com/Nyirate/Delani-Studio-project
+  Problems,questions,ideas or advice;find me on https://github.com/Naice-gif/Delani-Studio-project
 
   Approved by Moringa School
 
