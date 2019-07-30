@@ -165,4 +165,8 @@ p{
   display: flex;
   flex-direction: row;
  }
- 
+
+
+ .inout{
+   margin-bottom:0px;
+ }
