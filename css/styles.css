@@ -170,7 +170,17 @@ p{
  .inout{
    margin-bottom:0px;
  }
- .soc{
-   width:20%;
+ .social{
+   
    height:auto;
- }
+  font-weight: 400;
+  color: #383838;
+ 
+} 
+
+.soc{
+  display: flexbox;
+  flex-direction: row;
+  width:5%;
+
+   }
