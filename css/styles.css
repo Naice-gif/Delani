@@ -165,11 +165,23 @@ p{
   display: flex;
   flex-direction: row;
  }
+ #folio{
+   position:relative;
+ }
+ #hovs{
+   position:absolute;
+   top:50px;
+   bottom:40;
+   text-align:center;
+   display:none;
+   padding-top:25px;
+ }
 
 
  .inout{
    margin-bottom:0px;
  }
+
  .social{
    
    height:auto;
