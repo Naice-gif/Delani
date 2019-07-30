@@ -8,6 +8,23 @@ $(document).ready(function(){
      $(".words").hide();
     });
    
+$(".porto").mouseover(function(){
+  $("#hovs").show();
+});
+
+$(".porto").mouseleave(function(){
+  $("#hovs").hide();
+});
+$(".ports").mouseover(function(){
+  $("#hovs").show();
+});
+$(".ports").mouseleave(function(){
+  $("#hovs").hide();
+});
+
+
+
+
    $("#form").click(function(){
      var name = $("#name").val()
      var email = $("#mail").val()
