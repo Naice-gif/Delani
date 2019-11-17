@@ -1,205 +1,490 @@
-/*Extra small devices*/
-@media only screen and (max-width:600px){
-}
-/* Small devices*/
-@media only screen and (min-width:600px){
+ 
+/*This is a user interface */
+/*Extra small devices */
+@media only screen and (max-width:600px) {}
 
+/* small devices */
+@media only screen and (min-width:600px) {
+
+  body,
+  .fol-1,
+  .fol-2,
+  .fol-3,
+  .fol-4,
+  .fol-5,
+  .fol-6,
+  .fol-7,
+  .fol-8 {
+    width: 100%;
+  }
 }
+
 /* Medium devices*/
-@media only screen and (min-width:768px){
+@media only screen and (min-width:768px) {}
 
-}
-/* Large devices*/
-@media only screen and (min-width:992px){
+/* Large devices */
+@media only screen and (min-width:992px) {}
 
-}
-/* Extra devices*/
-@media only screen and (min-width:1200px){
+/* Extra large devices */
+@media only screen and (min-width:1200px) {}
 
-}
-
-
-body{
-    height:100%;
-    font: size 100%;
-    box-sizing:border-box;
-    font-family:sans-serif;
-    background-color:aliceblue;
-
+.welcome {
+  background: url('https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg');
 }
 
-img{
-width: 100%;
-opacity: 5;
-
+.d {
+  margin-left: 50%;
+  margin-top: 19%;
 }
 
-.logo{
-position: absolute;
-top: 20%;
-left: 47%;
+.m {
+  margin-left: 53%;
+  margin-top: 16%;
+  margin-bottom: 3%;
 }
 
-h1{
-position: absolute;
-top: 47%;
-left: 50%;
-color:white;
-font-size:64px;
-transform: translate(-50%, -50%);
-font-weight: 400;
-font-style: normal;
-}
-
-h2{
-    position:absolute;
-    top: 60%;
-    left: 50%;
-    color:white;
-    font-size:64px;
-    transform: translate(-50%, -50%);
-    font-style:normal;
-    font-weight: 400;
-    }
-p{
-    position:absolute;
-    top: 80%;
-    left:27%;
-    color:white;
-}
-
-
-.mouse{
-    position:absolute;
-    bottom: -8%;
-    right: 50%;
- }
-
- .about{
-     text-align: center;
-     line-height:25px;
-     color: #383838;
-     height: 400px;
-     
- }
-
- h3{
-    padding: 5px;
-    font-size: 64px;
-    font-weight:400;
-    color: #383838;
-    margin-bottom:40px;
- }
-
- .servs {
+.w {
+  font-size: 280%;
   color: white;
-  position:relative;
-  
+  margin-left: 45%;
+  font-family: 'Roboto', sans-serif;
 }
 
-.inns {
-  top: 50%;
+#w {
+
+  margin-left: 5%;
+  margin-top: 5%;
+
+
+}
+
+#t {
+  margin-top: 3%;
+  margin-left: -1%;
+}
+
+.people {
+  color: white;
+  margin-bottom: -0.5%;
+  font-size: 15px;
+  margin-left: 14%;
+}
+
+.a {
+  margin-bottom: 10%;
+  color: black;
+}
+
+h1 {
+  margin-top: 5%;
+  font-family: 'Fjalla One', sans-serif;
   text-align: center;
-  line-height:25px;
-  margin-top: -390px;
 }
- h4{
-   font-size:64px;
-   font-weight:400;
-   margin-top:150px;
- }
 
-  .all{
-    margin-top: -10px;
-  }
-
-  h5{
-    text-align: center;
-    font-size: 64px;
-    font-weight: 400;
-    color: #383838;
-  }
- 
-  
-  .first{
-    margin-left:250px;
-    width:8%;
-    height:auto;
-    display:inline-block;
-    align:left;
-  }
-
-  .deeds{
-  display: flex;
+p {
   text-align: center;
-  }
-
- h6{
-   font-size: 20px;
-   font-weight: 400;
-   color: #383838;
-   font-style:normal;
-   margin-top: 10px;
- }
-
-
-
-.heder{
- font-weight: 400;
- font-size: 64px;
- color: #383838;
- margin-left:470px;
+  font-family: 'Prompt', sans-serif;
 }
 
+div.a {
+  line-height: 230%;
+  text-align: center;
+}
 
- .porto{
-   width:23%;
-   height:auto;
-   display: flex;
-   flex-direction: row;
- }
+body {
+  background: white;
+}
 
- .ports{
-  width:23%;
-  height:auto;
-  display: flex;
-  flex-direction: row;
- }
- #folio{
-   position:relative;
- }
- #hovs{
-   position:absolute;
-   top:50px;
-   bottom:40;
-   text-align:center;
-   display:none;
-   padding-top:25px;
- }
+div.b {
+  line-height: 230%;
+}
 
+.services {
+  background: url('https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg');
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
- .inout{
-   margin-bottom:0px;
- }
+/* 
+.b {
+  margin-right: 45%;
+} */
 
- .social{
-   
-   height:auto;
-  font-weight: 400;
-  color: #383838;
- 
-} 
+.one {
+  text-align: inherit;
+}
 
-.soc{
+.showing {
+  display: none;
+  line-height: 150%;
+
+}
+
+.para {
+  display: none;
+}
+
+.product {
+  display: none;
+}
+
+.ol {
+  margin-left: 120%;
+}
+
+.folio {
+  text-align: center;
+}
+
+.image-1 {
+  margin-bottom: 34px;
+  position: relative;
+  text-align: center;
+  margin-right: -1%;
+  float: right;
+
+}
+
+.image-1:hover {
+  background: black;
+  opacity: 0.6;
+}
+
+.image-2 {
   float: left;
+  position: relative;
+}
+
+.image-2:hover {
+  background: black;
+  opacity: 0.6;
+}
+
+.image-3 {
+
+  float: left;
+
+  margin-left: 45%;
+
+  position: relative;
+
+}
+
+.image-3:hover {
+  background: black;
+  opacity: 0.6;
+}
+
+.image-4 {
+  float: left;
+  margin-left: 90%;
+  position: relative;
+
+}
+
+.image-4:hover {
+  background: black;
+  opacity: 0.6;
+}
+
+.image-5 {
+  float: right;
+  position: relative;
+}
+
+.image-5:hover {
+  background: black;
+  opacity: 0.6;
+}
+
+.image-6 {
+  float: left;
+  position: relative;
+}
+
+.image-6:hover {
+  background: black;
+  opacity: 0.6;
+}
+
+.image-7 {
+  float: left;
+
+  margin-left: 45%;
+  position: relative;
+}
+
+.image-7:hover {
+  background: black;
+  opacity: 0.6;
+}
+
+.image-8 {
+  float: left;
+  margin-left: 90%;
+  position: relative;
+}
+
+.image-8:hover {
+  background: black;
+  opacity: 0.6;
+}
+
+.fol-1 {
+  color: white;
+
+  position: absolute;
   text-align: center;
-  width:3%;
-  margin-left:70px;
-  padding:-60px;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-top: 3px solid white;
+  width: 80%;
+  height: 70%;
+  display: none;
+  margin-top: 12%;
+  padding-top: 30%;
+  margin-right: 70%;
+  margin-left: -15%;
+}
 
-   }
+.fol-2 {
+  color: white;
+  position: absolute;
+  text-align: center;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-top: 3px solid white;
+  width: 80%;
+  height: 70%;
+  display: none;
+  margin-top: 12%;
+  padding-top: 30%;
+  margin-right: 70%;
+  margin-left: 30%;
+}
 
-   footer{
-     margin-bottom:-490px;
+.fol-3 {
+  color: white;
+  opacity: 0.5;
+  position: absolute;
+  text-align: center;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-top: 3px solid white;
+  width: 80%;
+  height: 70%;
+  margin-top: 12%;
+  padding-top: 30%;
+  margin-left: 60%;
+  display: none;
+}
 
-   }
+.fol-4 {
+  color: white;
+  position: absolute;
+  text-align: center;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-top: 3px solid white;
+  width: 80%;
+  height: 70%;
+  display: none;
+  margin-top: 12%;
+  padding-top: 30%;
+  margin-left: 110%;
+}
+
+.fol-5 {
+  color: white;
+  position: absolute;
+  text-align: center;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-top: 3px solid white;
+  width: 80%;
+  height: 70%;
+  margin-top: 15%;
+  padding-top: 30%;
+  margin-right: 70%;
+  margin-left: -15%;
+  display: none;
+}
+
+.fol-6 {
+  color: white;
+  position: absolute;
+  text-align: center;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-top: 3px solid white;
+  width: 80%;
+  height: 70%;
+  display: none;
+  margin-top: 15%;
+  padding-top: 30%;
+  margin-right: 70%;
+  margin-left: 30%;
+}
+
+.fol-7 {
+  color: white;
+  position: absolute;
+  text-align: center;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-top: 3px solid white;
+  width: 80%;
+  height: 70%;
+  display: none;
+  margin-top: 15%;
+  padding-top: 30%;
+  margin-left: 70%;
+}
+
+.fol-8 {
+  color: white;
+  position: absolute;
+  text-align: center;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-top: 3px solid white;
+  width: 80%;
+  height: 70%;
+  display: none;
+  margin-top: 12%;
+  padding-top: 30%;
+  margin-left: 110%;
+}
+
+.fol-1 p {
+  font-family: 'Anton', sans-serif;
+  font-size: 180%;
+}
+
+.fol-2 p {
+  font-family: 'Anton', sans-serif;
+  font-size: 180%;
+}
+
+.fol-3 p {
+  font-family: 'Anton', sans-serif;
+  font-size: 180%;
+}
+
+.fol-4 p {
+  font-family: 'Anton', sans-serif;
+  font-size: 180%;
+}
+
+.fol-5 p {
+  font-family: 'Anton', sans-serif;
+  font-size: 180%;
+}
+
+.fol-6 p {
+  font-family: 'Anton', sans-serif;
+  font-size: 180%;
+}
+
+.fol-7 p {
+  font-family: 'Anton', sans-serif;
+  font-size: 180%;
+}
+
+.fol-8 p {
+  font-family: 'Anton', sans-serif;
+  font-size: 180%;
+}
+
+.contact {
+  background: url('https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg');
+  background-size: cover;
+  height: 500px;
+  width: 160%;
+  margin-top: 5%;
+  margin-left: -20%;
+
+}
+
+input[type="text"] {
+  background: transparent;
+  width: 50%;
+
+  color: white;
+}
+
+input[type='email'] {
+  background: transparent;
+  width: 50%;
+
+  color: white;
+}
+
+
+#exampleFormControlTextarea1 {
+  background: transparent;
+  width: 50%;
+  color: white;
+}
+
+form ::placeholder {
+  color: white;
+}
+
+.form-group ::placeholder {
+  color: white;
+}
+
+button[type='button'] {
+  margin-left: 40%;
+}
+
+.footer {
+  text-align: center;
+}
+
+.delanistudio {
+  margin-top: 2%;
+  font-size: 80%;
+}
+
+.twitter {
+  margin-right: 1%;
+}
+
+.dribble {
+  margin-right: 1%;
+}
+
+.facebook {
+  margin-right: 1%;
+}
+
+.g {
+  margin-right: 1%;
+}
+
+.skype {
+  margin-right: 1%;
+}
+
+.stumble {
+  margin-right: 1%;
+}
+
+.be {
+  margin-right: 1%;
+}
+
+.pinterest {
+  margin-right: 1%;
+}
